@@ -1,0 +1,20 @@
+input {
+    keyboard {
+        xkb {
+            layout "us,ru"
+            options "grp:alt_shift_toggle"
+        }
+        repeat-delay 300
+        repeat-rate 25
+        track-layout "global"
+        numlock
+    }
+    mouse {
+        accel-profile "flat"
+        accel-speed 0.2
+    }
+    warp-mouse-to-focus
+    focus-follows-mouse max-scroll-amount="10%"
+    mod-key "Super"
+    mod-key-nested "Alt"
+}

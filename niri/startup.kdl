@@ -1,0 +1,44 @@
+window-rule {
+	match at-startup=true app-id="code"
+	open-on-workspace "work"
+}
+
+window-rule {
+	match at-startup=true app-id="alacritty"
+	open-on-workspace "work"
+}
+
+
+
+window-rule {
+	match at-startup=true app-id="firefox"
+	open-on-workspace "internet"
+}
+
+
+
+window-rule {
+	match at-startup=true app-id="telegram"
+	open-on-workspace "social"
+}
+
+window-rule {
+	match at-startup=true app-id="discord"
+	open-on-workspace "social"
+}
+
+
+
+window-rule {
+	match at-startup=true app-id="steam"
+	open-on-workspace "games"
+}
+
+
+
+window-rule {
+	match at-startup=true app-id="feishin"
+	open-on-workspace "media"
+}
+
+

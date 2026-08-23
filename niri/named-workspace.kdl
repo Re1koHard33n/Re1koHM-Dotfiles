@@ -1,0 +1,19 @@
+workspace "work" {
+	open-on-output "DP-3"
+}
+
+workspace "internet" {
+	open-on-output "DP-3"
+}
+
+workspace "social" {
+	open-on-output "DP-3"
+}
+
+workspace "games" {
+	open-on-output "DP-3"
+}
+
+workspace "media" {
+	open-on-output "DP-1"
+}

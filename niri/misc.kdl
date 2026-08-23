@@ -1,0 +1,42 @@
+prefer-no-csd
+screenshot-path "~/Pictures/Screenshot from %Y-%m-%d %H-%M-%S.png"
+cursor {
+    xcursor-theme "Adwaita"
+    xcursor-size 24
+    hide-when-typing
+    hide-after-inactive-ms 1000
+}
+overview {
+    zoom 0.25
+    workspace-shadow {
+        off
+    }
+}
+xwayland-satellite {
+    path "xwayland-satellite"
+}
+hotkey-overlay {
+    skip-at-startup
+    hide-not-bound
+}
+gestures {
+    dnd-edge-view-scroll {
+        trigger-width 30
+        delay-ms 100
+        max-speed 1500
+    }
+    dnd-edge-workspace-switch {
+        trigger-height 100
+        max-speed 3000
+    }
+    hot-corners {
+        off
+    }
+}
+environment {
+    ELECTRON_OZON_PLATFORM_HINT "auto"
+}
+
+output "DP-1" {
+    mode custom=true "1920x1080@60"
+}

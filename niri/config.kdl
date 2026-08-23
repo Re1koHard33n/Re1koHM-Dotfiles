@@ -1,0 +1,11 @@
+include "binds.kdl"
+include "input.kdl"
+include "layout.kdl"
+include "misc.kdl"
+include "recent-windows.kdl"
+include "rules.kdl"
+include "named-workspace.kdl"
+include "startup.kdl"
+
+// DMS Include Configs
+include "dms/cursor.kdl"
