@@ -9,6 +9,7 @@ let
     niri = ".config/niri";
     starship = ".config/starship.toml";
     zsh = ".zshrc";
+    mozilla = .config/mozilla;
   };
 in
 {
