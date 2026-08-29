@@ -1,4 +1,5 @@
 if status is-interactive
+    starship init fish | source
     fastfetch
 
     abbr -a gs  "git status"
