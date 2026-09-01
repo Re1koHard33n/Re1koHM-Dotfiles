@@ -10,6 +10,10 @@ let
     starship = ".config/starship.toml";
     zsh = ".zshrc";
     mozilla = ".config/mozilla";
+
+    cursor = ".icons";
+    themes = ".themes/Nordic";
+    wallpapers = ".wallpapers";
   };
 in
 {
