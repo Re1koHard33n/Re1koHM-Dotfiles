@@ -12,7 +12,7 @@ let
     mozilla = ".config/mozilla";
 
     cursor = ".icons";
-    themes = ".themes/Nordic";
+    theme = ".themes/Nordic";
     wallpapers = ".wallpapers";
     "gtk-3.0" = ".config/gtk-3.0";
     "gtk-4.0" = ".config/gtk-4.0";
